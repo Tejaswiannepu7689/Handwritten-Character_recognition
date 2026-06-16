@@ -1,0 +1,106 @@
+HANDWRITTEN CHARACTER RECOGNITION USING DEEP LEARNING
+
+Abstract
+
+Handwritten Character Recognition is a Deep Learning project designed to identify and classify handwritten digits from images. The system uses Convolutional Neural Networks (CNNs) and image processing techniques to recognize handwritten characters with high accuracy. This technology is widely used in document digitization, postal services, banking applications, and educational systems.
+
+Introduction
+
+Handwritten Character Recognition (HCR) is an important application of Artificial Intelligence and Computer Vision. The objective is to convert handwritten text or digits into machine-readable form. Traditional methods were less accurate, whereas Deep Learning models have significantly improved recognition performance.
+
+Objectives
+
+- Recognize handwritten digits from images.
+- Automate character identification using Deep Learning.
+- Improve recognition accuracy through image preprocessing.
+- Demonstrate practical applications of Computer Vision.
+
+Technologies Used
+
+- Python
+- TensorFlow
+- Keras
+- OpenCV
+- NumPy
+- Matplotlib
+- VS Code
+
+Dataset
+
+The project uses the MNIST dataset, which contains:
+
+- 70,000 handwritten digit images
+- Digits ranging from 0 to 9
+- Training and testing samples
+
+Methodology
+
+1. Data Collection
+
+The MNIST dataset is loaded and prepared for training.
+
+2. Data Preprocessing
+
+- Image normalization
+- Reshaping images
+- Noise reduction
+- Feature extraction
+
+3. Model Development
+
+A Convolutional Neural Network (CNN) is used to learn patterns from handwritten digit images.
+
+4. Model Training
+
+The model is trained using the training dataset and validated using test data.
+
+5. Prediction
+
+The trained model predicts handwritten digits from new input images.
+
+System Architecture
+
+1. Input Image
+2. Image Preprocessing
+3. CNN Model
+4. Classification Layer
+5. Predicted Digit Output
+
+Features
+
+- Automatic handwritten digit recognition
+- Image preprocessing
+- Deep Learning-based classification
+- Accuracy evaluation
+- User-friendly prediction system
+
+Results
+
+The CNN model successfully recognized handwritten digits with high accuracy on the test dataset. The system demonstrated reliable performance for digit classification tasks.
+
+Applications
+
+- Bank cheque processing
+- Postal code recognition
+- Educational software
+- Document digitization
+- Form processing systems
+
+Future Enhancements
+
+- Recognition of handwritten alphabets
+- Real-time camera-based recognition
+- Web application deployment
+- Multi-language handwriting support
+
+Conclusion
+
+The Handwritten Character Recognition project demonstrates the effectiveness of Deep Learning and Computer Vision in recognizing handwritten digits. The system achieves high accuracy and can be extended for real-world applications involving handwritten text recognition.
+
+References
+
+1. TensorFlow Documentation
+2. Keras Documentation
+3. MNIST Dataset
+4. Deep Learning Research Papers
+5. OpenCV Documentation
